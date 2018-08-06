@@ -3,6 +3,6 @@ jobs:
   build:
     docker:
       - image: circleci/python:3.7-browsers
-      steps:
-        - checkout
-        - run: echo "hello world!h"
+    steps:
+      - checkout
+      - run: echo "hello world!"
